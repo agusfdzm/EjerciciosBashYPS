@@ -1,45 +1,50 @@
-1. Script que fa la Mitjana d’edat dels alumnes d’una classe.
+## Exercicis Bash – Nivell bàsic
 
-·       S’ha d’introduir el nombre d’alumnes per saber-ne el total (Si es zero ha d’avisar).
+### 🧓 Exercici 1: Mitjana d’edat dels alumnes
 
-·       S’ha de demanar per a cada alumne la seva edat.
+Crea un script que calculi la mitjana d’edat d’una classe.
 
-·       S’ha de comprovar que per cada nombre introduït no sigui negatiu.
+**Requeriments:**
+- S’ha d’introduir el nombre d’alumnes per saber-ne el total (si és zero, ha d’avisar i sortir).
+- S’ha de demanar per a cada alumne la seva edat.
+- S’ha de comprovar que cada edat introduïda no sigui negativa.
+- Al finalitzar, ha de mostrar:
+  - La suma total de les edats.
+  - La mitjana d’edat.
 
-·       Al finalitzar el recompte d’edat ha de donar la suma de les edats i la mitjana .
+---
 
- 
+### 🌡️ Exercici 2: Conversió de temperatura (Celsius-Kelvin)
 
- 
+Crea un script amb un menú per convertir temperatures entre Celsius i Kelvin.
 
-2. Menú de conversió de temperatura Celsius-Kelvin.
+**Requeriments:**
+- Opcions del menú:
+  - Convertir de Celsius a Kelvin
+  - Convertir de Kelvin a Celsius
+  - Sortir
+- Qualsevol altra opció mostrarà un error.
+- Temperatures superiors a 100 o inferiors a 0 mostraran un missatge d’alerta per ebullició o congelació.
 
-·       Kelvin = Celsius + 273.
+---
 
-·       El menú té tres opcions: C-K, K-C i Sortir.
+### ✖️ Exercici 3: Multiplicacions consecutives
 
-·       Qualsevol que no sigui aquestes opcions serà un error i es dirà per pantalla.
+Crea un script que, donats dos números enters ordenats de menor a major, faci multiplicacions consecutives.
 
-·       Temperatures per d’alt de 100 i per baix de 0 donaran missatge d’alerta per ebullició o congelació.
+**Requeriments:**
+- Multiplica cada número pel següent fins arribar al final.
+- Mostra cada multiplicació amb el seu resultat (ex: `3x4=12`).
+- Mostra la suma total de totes les multiplicacions al final.
 
- 
+---
 
- 
+### ➕ Exercici 4: Sumar fins polsar 0
 
-3. Script que donat 2 números sencer, ordenats de menor a major, s’aniran multiplicant un darrera l’altre fins arribar al darrer. 
+Crea un script que vagi sumant números fins que l’usuari introdueixi un 0.
 
-·       Cada multiplicació es mostrarà per pantalla amb el seu resultat. 
-
-·       Exemple: 3x4=12; 4x5=20; 5x6=30…
-
-·       Al final de l’script es mostrarà la suma total per pantalla.
-
- 
-
- 
-
-4. Script que va sumant números fins polsar 0.
-
-·       Cada introducció mostra un missatge amb la tecla polsada i la suma actual.
-
-·       Al polsar cero emet missatge final de sortida amb el total.
+**Requeriments:**
+- Cada vegada que s’introdueixi un número, ha de mostrar:
+  - El número introduït.
+  - La suma acumulada.
+- Quan es polsa 0, el programa acaba i mostra el total final.
